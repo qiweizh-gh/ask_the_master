@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackActivity">
+
+    <TextView
+        android:id="@+id/feed_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rate_layout"
+        android:text="Please Rate Your Master!"
+        android:textSize="50dp"
+        android:textStyle="italic"
+        >
+
+
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/rate_layout"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please share your feedback with us"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:id="@+id/comment_note"
+            ></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/comment_note"
+            android:id="@+id/feedback_comment"
+            android:hint="The service was helpful. Would definitely recommend to others!"
+            android:paddingLeft="10dp"
+            ></EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How would you rate the service?"
+            android:layout_below="@id/feedback_comment"
+            android:id="@+id/feedback_2"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            ></TextView>
+
+        <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feedback_2"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:isIndicator="false"
+        style="android:attr/ratingBarStyleSmall"
+
+        />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rate_layout"
+        android:layout_above="@id/nav_view"
+        android:id="@+id/sub"
+        >
+
+        <TextView
+            android:id="@+id/ask_for_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Would you like to assign another master for you ?"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            android:visibility="gone"
+            ></TextView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="80dp"
+            android:text="No"
+            android:id="@+id/no_another"
+            android:layout_below="@id/ask_for_more"
+            android:layout_marginBottom="20dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:theme="@style/ThemeOverlay.MyDarkButton"
+            android:visibility="gone"
+
+            ></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@id/no_another"
+            android:layout_marginLeft="150dp"
+            android:text="Yes"
+            android:id="@+id/another"
+            android:layout_below="@id/ask_for_more"
+            android:layout_marginBottom="20dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:theme="@style/ThemeOverlay.MyDarkButton"
+            android:visibility="gone"
+
+            ></Button>
+    <Button
+        android:id="@+id/submit_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:text="Submit"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:theme="@style/ThemeOverlay.MyDarkButton"></Button>
+
+    <Button
+        android:id="@+id/go_back"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@id/submit_feedback"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:text="Back"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:theme="@style/ThemeOverlay.MyDarkButton"></Button>
+    </RelativeLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="?android:attr/windowBackground"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu" />
+</RelativeLayout>
+

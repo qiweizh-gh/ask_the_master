@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:orientation="vertical"
+    tools:context=".ui.question.QuestionFragment">
+
+    <TextView
+        android:id="@+id/categoryData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/search_view"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="question title"
+        android:ems="10"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/search_view2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="describe your question"
+        android:ems="16"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estimate Duration"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp" />
+
+    <EditText
+        android:id="@+id/search_view3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="top"
+        android:hint="your estimated duration in minutes"
+        android:ems="15"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Question"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        />
+
+</LinearLayout>

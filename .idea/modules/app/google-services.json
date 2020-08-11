@@ -1,0 +1,88 @@
+{
+  "project_info": {
+    "project_number": "441242798265",
+    "firebase_url": "https://askthemasterapp.firebaseio.com",
+    "project_id": "askthemasterapp",
+    "storage_bucket": "askthemasterapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441242798265:android:250881c12913170d4f3368",
+        "android_client_info": {
+          "package_name": "com.atm.askthemaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441242798265-5v36rjghichm3gipe1on49dk314c1s9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atm.askthemaster",
+            "certificate_hash": "0ea9ae70e88c958ef5d6325d3f3a918683f82194"
+          }
+        },
+        {
+          "client_id": "441242798265-ckld2j4rpm0idn5r8nve05rg8c0j3gpf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atm.askthemaster",
+            "certificate_hash": "8d1b424fbb68b8f520d664e5a10641412ede9d92"
+          }
+        },
+        {
+          "client_id": "441242798265-e0ecfgoq9i5645s0vlcsssfbp6vvbqus.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atm.askthemaster",
+            "certificate_hash": "697f1cee7effcb802b0e2ca19369648b17413d0c"
+          }
+        },
+        {
+          "client_id": "441242798265-0t64l31fdrc9ddbhaolclp1qh8f5qe4b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atm.askthemaster",
+            "certificate_hash": "1e3a4e9b42313221100c0496c07421c8a693ecbe"
+          }
+        },
+        {
+          "client_id": "441242798265-903vulk6upvvh9lnug7h94eu1rdm6uae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atm.askthemaster",
+            "certificate_hash": "a700947947f168162013353f4bdf4552db453dff"
+          }
+        },
+        {
+          "client_id": "441242798265-rios8hcip9q5pboi0mindb4pts0ihv2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atm.askthemaster",
+            "certificate_hash": "cf62b905e8f0cfa980f9299f9281e7d751fc4c67"
+          }
+        },
+        {
+          "client_id": "441242798265-n8hkvvnupvgonijn0bqitnvf3gjnm8rl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZK_FXwg-Ghf1SIiFrIpGZpcZw9Y8Cy88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441242798265-n8hkvvnupvgonijn0bqitnvf3gjnm8rl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

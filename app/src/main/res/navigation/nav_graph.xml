@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_search">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.atm.askthemaster.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.atm.askthemaster.ui.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/list_view_main" />
+    <fragment
+        android:id="@+id/navigation_master"
+        android:name="com.atm.askthemaster.ui.list.ListFragment"
+        android:label="Master"
+        tools:layout="@layout/fragment_list" />
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.atm.askthemaster.ui.account.AccountFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/fragment_account" />
+</navigation>

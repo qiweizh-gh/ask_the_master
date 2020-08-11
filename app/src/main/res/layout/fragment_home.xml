@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/elonmusk"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/black"
+        android:src="@drawable/musk" />
+
+    <TextView
+        android:layout_width="957dp"
+        android:layout_height="114dp"
+        android:layout_alignTop="@+id/elonmusk"
+        android:layout_alignBottom="@+id/elonmusk"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="397dp"
+        android:layout_marginBottom="3dp"
+        android:layout_toRightOf="@+id/elonmusk"
+        android:background="@color/colorPrimaryDark"
+        android:text="Business \n1 \nRanking"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/kendalljenner"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="260dp"
+        android:src="@drawable/kendalljenner" />
+
+    <TextView
+        android:layout_width="953dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/kendalljenner"
+        android:layout_alignBottom="@+id/kendalljenner"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="400dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@+id/kendalljenner"
+        android:background="#E29578"
+        android:text="Fashion \n1 \nRanking"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/motherhood"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="430dp"
+        android:src="@drawable/motherhood" />
+
+    <TextView
+        android:layout_width="951dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/motherhood"
+        android:layout_alignBottom="@+id/motherhood"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="397dp"
+        android:layout_marginBottom="33dp"
+        android:layout_toRightOf="@+id/motherhood"
+        android:background="#FFDDD2"
+        android:text="Motherhood \n1 \nRanking"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>
